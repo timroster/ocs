@@ -15,14 +15,6 @@ spec:
     - storageClassName: localblock
       volumeMode: Block
       devicePaths:
-        - /dev/disk/by-id/scsi-0QEMU_QEMU_HARDDISK_drive-scsi1-0-0-4 
-        - /dev/disk/by-id/scsi-0QEMU_QEMU_HARDDISK_drive-scsi1-0-0-5 
-        - /dev/disk/by-id/scsi-0QEMU_QEMU_HARDDISK_drive-scsi1-0-0-6 
-        - /dev/disk/by-id/scsi-0QEMU_QEMU_HARDDISK_drive-scsi2-0-0-0 
-        - /dev/disk/by-id/scsi-0QEMU_QEMU_HARDDISK_drive-scsi2-0-0-1 
-        - /dev/disk/by-id/scsi-0QEMU_QEMU_HARDDISK_drive-scsi2-0-0-2 
-        - /dev/disk/by-id/scsi-0QEMU_QEMU_HARDDISK_drive-scsi2-0-0-3 
-        - /dev/disk/by-id/scsi-0QEMU_QEMU_HARDDISK_drive-scsi2-0-0-4 
-        - /dev/disk/by-id/scsi-0QEMU_QEMU_HARDDISK_drive-scsi2-0-0-5 
-        
-
+        - /dev/disk/by-path/pci-0000:07:00.0
+        - /dev/disk/by-path/pci-0000:08:00.0
+        - /dev/disk/by-path/pci-0000:09:00.0
